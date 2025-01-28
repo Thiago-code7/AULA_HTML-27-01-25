@@ -1,0 +1,68 @@
+*{
+  margin: 0; /*remover todas as margens */
+   padding:0; /*remover todo o preenchimento */
+  box-sizing: border-box; /* inclui brodas e preenchimento para calcular o tamanho */
+
+}
+
+/*seletor de tag*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6; /*define o espaçamento entre linhas*/
+    color: #333 ; /*define a cor do texto para cinza escuro */
+    background-color: #f4f4f4;/* define a cor do fundo como cinza claro*/
+    padding: 10px; /*adiciona espaçamento interno ao corpo (body)*/
+}
+header{
+    background-color: #0003b3;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+header h1{
+    margin-bottom: 10px;
+}
+/*formatar a barra de navegação*/
+nav ul{
+    list-style: none;/*remove os marcadores padroes da lista*/
+    display: flex;/*aplica o displey flexivel(linha comportamento padrao*/
+    justify-content: center;/*centraliza os itens*/
+    gap: 15px;/*adiciona espaçamentos entre os itens*/
+    padding: 10px;
+
+}
+nav a {
+    color: white;
+    text-decoration: none;/*remove a decoracao dos links*/
+    padding: 5px;
+}
+nav a:hover{
+    text-decoration: underline;/*adiciona um sumblinhado ao passar o mouse sobre o elemento*/
+
+}
+section{
+    margin: 20px 0;/*adiciona espaçamento vertical entre as seçoes*/
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;/*arredondar as bordas das section*/
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);/*adicionar um pouco de sombra a seçao*/
+}
+section h2{
+    color: #0056be;
+    padding-bottom: 10px;
+}
+section ul{
+    margin-left: 20px;
+    
+}
+section  li{
+    margin-bottom: 5px;
+    padding: 5px;
+}
+footer{
+    text-align: center;
+}
+/*seletor de tag*/
+h3{
+    background-color: black;
+}
