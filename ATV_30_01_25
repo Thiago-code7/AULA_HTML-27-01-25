@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Display: grid</title>
+    <link rel="stylesheet" href="../aula30-01_2/style.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="home">Loja Virtual - Galeria de Animais; </h1>
+    </header>
+    <main>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h2>Play</h2>
+                <img src="https://i.pinimg.com/736x/f6/f5/77/f6f577b32163538663d2a44846e60c10.jpg" alt="igem de gato">
+                <p>gato Angorá</p>
+            </div>
+
+            <div class="grid-item">
+                <h2>WALK </h2>
+
+            <img src="https://images01.nicepagecdn.com/page/14/51/html-template-preview-145180.webp"
+                alt="imagem de um gato">
+                <p>gato Amarelo</p>
+        </div>
+
+        <div class="grid-item">
+            <h2>Item 5</h2>
+
+        <img src="https://i.pinimg.com/736x/c9/d6/63/c9d6638947edb15053ce855b147844ee.jpg" alt="imagem de um gato">
+        <p>gato siamês</p>
+        </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
